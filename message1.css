@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/landscape-nature-view-background-view-window-landscape-nature-view-background-view-window-wonderful-landscape-121459679.jpg?w=1200");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 250px;
+    width: 400px;
+    background-color: rgb(250,270,,1505);
+    padding-top: 10px;
+    border-radius: ;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-shadow: 0px 2px 3px, 0px 2px 4px yellow;
+    color:red;
+    margin-top: 20px;
+}
+label {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: ;
+    border: 1px solid gray;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    height: 25px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: ;
+    background-color: blanchedalmond;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.3);
+    background-color: (hotpink);
+}
+
+#message-output {
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 20px;
+    font-weight:bolder;
+}
